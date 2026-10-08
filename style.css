@@ -9,6 +9,69 @@ body{
     color: #4a3e3d;
     padding: 20px 4%; /* atas bawah dan kiri kanan */
 }
+body.dark{
+    background-color: rgb(47, 37, 37);
+    color: white;
+}
+body.dark .navbar{
+    background-color: rgb(31, 25, 25);
+}
+body.dark .overview-item{
+    background-color: rgb(74, 61, 61);
+}
+body.dark .project-card{
+    background-color: rgb(58, 48, 48);
+}
+body.dark .contact-card{
+    background-color: rgb(74, 61, 61);
+}
+body.dark .overview-number {
+    color: white;
+}
+body.dark .overview-text h3 {
+    color: white;
+}
+body.dark .overview-text p {
+    color: white;
+}
+body.dark .sosial-icon a {
+    color: white;
+}
+body.dark .contact-desc {
+    color: white;
+}
+body.dark .contact-card h3 {
+    color: white;
+}
+body.dark .contact-card p {
+    color: white;
+}
+body.dark .profile h1 {
+    color: white;
+}
+body.dark .profile h1 span {
+    color: white;
+}
+body.dark .profile .role {
+    color: white;
+}
+body.dark .sosial-media {
+    color: white;
+}
+body.dark .my-goal {
+    color: white;
+}
+body.dark .projects-wrapper .projects-title {
+    color: white;
+}
+body.dark .projects-wrapper .projects-desc {
+    color: white;
+}
+body.dark .nav-content a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 .navbar{
     background-color: rgb(130, 110, 110);
     display: flex;
@@ -21,6 +84,15 @@ body{
     font-size: 25px;
     font-weight: bold;
     color: rgb(241, 232, 232);
+}
+.nav-content a{
+    color: rgb(216, 208, 208);
+    text-decoration: none;
+}
+
+.nav-content a:hover {
+    color: rgb(215, 226, 229);
+    text-decoration: underline;
 }
 .logo img{
     width: 90px;
@@ -133,13 +205,14 @@ body{
 }
 .sosial-icon{
     display: flex;
+    font-size: 25px;
     gap: 15px;
     margin-top: 15px;
 }
-.sosial-icon a{
+.sosial-icon a:hover{
     color: rgb(97, 68, 68);
     font-size: 30px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .my-goal{
     flex: 1;
@@ -297,18 +370,6 @@ body{
     width: 100%;
     max-width: 900px;
 }
-.dot{
-    width: 10px;
-    height: 10px;
-    background-color: rgb(125, 107, 104);
-    border-radius: 50%;
-    cursor: pointer;
-}
-.dot.active{
-    background-color: white;
-    width: 24px;
-    border-radius: 8px;
-}
 .nav-btn{
 background: rgba(255, 255, 255, 0.2);
     border: none;
@@ -329,13 +390,9 @@ background: rgba(255, 255, 255, 0.2);
     letter-spacing: 2px;
     text-decoration: underline;
     text-align: center;
-}
-.contact-desc {
-    color: rgb(125, 107, 104);
     margin-bottom: 40px;
-    font-size: 15px;
-    text-align: center;
 }
+
 .contact-container {
     display: flex;
     justify-content: center;
