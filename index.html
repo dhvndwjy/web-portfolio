@@ -3,9 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Web Portfolio | dhvndwjy </title>
+    <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel ="stylesheet" href = "style.css">
 </head>
 <body>
-    
+    <header class="navbar">
+        <!-- Sisi Kiri Navbar -->
+        <div class="logo">
+            <img src="src/foto_profile.png" alt="Foto Profil">
+            <span>Dheavanda W.</span>
+        </div>
+        <!-- Sisi Tengah Navbar -->
+        <div class="nav-content">
+            <a href="#section-1">Home</a>
+            <a href="#section-2">Overview</a>
+            <a href="#projects">Projects</a>
+        </div>
+        <!-- Sisi Kanan Navbar -->
+        <div class="nav-right">
+            <button class="dark-mode">
+                <img src="src/dark_mode.png" alt="Dark Mode">
+            </button>
+            <button class="talk-button">Let's Talk</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section 1: Profile-->
+        <!-- Foto Award -->
+        <section class="profile" id="section-1">
+            <!-- Header Nama & Award Atas -->
+            <div class="header-section">
+                <div class="Award"> Award-Winning Product Designer</div>
+                <h1>I'm <span> Dhea!</span></h1>
+                <p class = "role">Informatics student at UPH</p>
+            </div>
+            <!-- 3 kolom body -->
+            <div class="body-section">
+                <!-- Kolom 1 - Kiri -->
+                <div class="sosial-media">
+                    <p>Follow Me On</p>
+                    <div class="sosial-icon">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <!-- Kolom 2 - Tengah -->
+                <div class="foto-profil">
+                    <img src="src/image.png" alt="Foto Profil Tengah">
+                </div>
+                <!-- Kolom 3 - Kanan -->
+                <div class="my-goal">
+                    <div class="quote-text">
+                        <i>"Mind is the forerunner of all states."</i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Section 2: Overview -->
+         <section class="overview-section" id="section-2">
+            <h2 class="title-name">OVERVIEW</h2>
+            <div class="overview-container">
+                <div class="overview-item">
+                    <span class="overview-number">01</span>
+                    <div class="overview-text">
+                        <h3>About & Profile</h3>
+                    </div>
+                </div>
+                <div class="overview-item">
+                    <span class="overview-number">02</span>
+                    <div class="overview-text">
+                        <h3>Lab Projects</h3>
+                    </div>
+                </div>
+                <div class="overview-item">
+                    <span class="overview-number">03</span>
+                    <div class="overview-text">
+                        <h3>Contact Information</h3>
+                    </div>
+                </div>
+            </div>     
+        </section>
+
+        <hr>
+
+        <!-- Section 3: My Projects -->
+            <div class="projects-wrapper" id="projects">
+                <h2 class="projects-title">PROJECTS</h2>
+                <p class="projects-desc">My Lab Projects</p>
+            
+                <section class="projects-section">
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="card-img">
+                            <img src="src/hasil_lab02.png" alt="Lab Project 01">
+                        </div>
+                        <h3>Earth</h3>
+                        <a href="tugas-lab02/lab02.html" target="_blank" class="btn-read-more">VIEW PROJECT</a>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="card-img">
+                            <img src="src/hasil_lab4_1.png" alt="Lab Project 02">
+                        </div>
+                        <div class="card-content">
+                            <h3>Dimensions</h3>
+                            <a href="projects/tugas-lab04.1/index.html" target="_blank" class="btn-read-more">VIEW PROJECT</a>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="card-img">
+                            <img src="src/hasil_lab4_2.png" alt="Lab Project 03">
+                        </div>
+                        <h3>Dev.com</h3>
+                        <a href="projects/tugas-lab04.2/index.html" target="_blank" class="btn-read-more">VIEW PROJECT</a>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <div class="card-img">
+                            <img src="src/hasil_lab05.png" alt="Lab Project 04">
+                        </div>
+                        <h3>MagicBox</h3>
+                        <a href="projects/MagicBox/index.html" target="_blank" class="btn-read-more">VIEW PROJECT</a>
+                    </div>    
+                </div>
+        </section>
+    </div>    
+
+    <hr>
+
+        <!-- Section 4: Contact Information -->
+        <section class="contact-section" id="contact">
+            <h2 class="contact-title">GET IN TOUCH</h2>
+            <p class="contact-desc">Hello!</p>
+
+            <div class="contact-container">
+                <div class="contact-card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>dheavanda.w@gmail.com</p>
+                </div>
+                <div class="contact-card">
+                    <i class = "fa-solid fa-location-dot"></i>
+                    <h3>Location</h3>
+                    <p>Jakarta, Indonesia</p>
+                </div>
+            </div>
+        </section>    
+
+        <hr>
+    </main>
 </body>
 </html>
